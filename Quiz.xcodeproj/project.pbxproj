@@ -14,6 +14,7 @@
 		511761FF2B22EEE400BC3033 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511761FE2B22EEE400BC3033 /* QuizTests.swift */; };
 		511762092B22EEE400BC3033 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511762082B22EEE400BC3033 /* QuizUITests.swift */; };
 		5117620B2B22EEE400BC3033 /* QuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117620A2B22EEE400BC3033 /* QuizUITestsLaunchTests.swift */; };
+		511762182B22F36600BC3033 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511762172B22F36600BC3033 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		511762042B22EEE400BC3033 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		511762082B22EEE400BC3033 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		5117620A2B22EEE400BC3033 /* QuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		511762172B22F36600BC3033 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		511761E12B22EEE100BC3033 = {
 			isa = PBXGroup;
 			children = (
+				511762172B22F36600BC3033 /* Launch Screen.storyboard */,
 				511761EC2B22EEE100BC3033 /* Quiz */,
 				511761FD2B22EEE400BC3033 /* QuizTests */,
 				511762072B22EEE400BC3033 /* QuizUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511762182B22F36600BC3033 /* Launch Screen.storyboard in Resources */,
 				511761F52B22EEE300BC3033 /* Preview Assets.xcassets in Resources */,
 				511761F22B22EEE300BC3033 /* Assets.xcassets in Resources */,
 			);
@@ -436,9 +440,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mi.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,9 +471,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mi.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
